@@ -48,12 +48,15 @@ const Head = () => {
           />
         </button>
       </div>
-      <div className="flex items-center col-span-1">
-        <img
-          className="h-6"
-          src="https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png"
-          alt="User Icon"
-        />
+      <div className="flex items-center justify-end col-span-1">
+        <div className="flex px-3 py-2 border border-gray-300 rounded-4xl gap-2 cursor-pointer">
+          <img
+            className="h-5"
+            src="https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png"
+            alt="User Icon"
+          />
+          <span className="text-gray-600 font-medium text-sm"> Sign in</span>
+        </div>
       </div>
     </div>
   );
